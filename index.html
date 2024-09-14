@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retrieve User Info</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Retrieve User Info</h1>
+    <input type="text" id="nationalID" placeholder="Enter National ID">
+    <button onclick="retrieveInfo()">Search</button>
+    <table id="resultTable">
+        <thead>
+            <tr>
+                <th>Username</th>
+                <th>Usercode</th>
+                <th>Password</th>
+            </tr>
+        </thead>
+        <tbody id="resultBody">
+            <!-- Results will be injected here -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
