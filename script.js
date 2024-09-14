@@ -1,13 +1,8 @@
-let userData = [];
-
-// Fetch JSON data from the external file
-fetch('data.json')
-    .then(response => response.json())
-    .then(data => {
-        userData = data;
-        console.log('Data loaded:', userData);
-    })
-    .catch(error => console.error('Error loading data:', error));
+// Sample JSON data (replace this with your actual data)
+const userData = [
+    { "National ID": "12345", "username": "user1", "Usercode": "code1", "password": "pass1" },
+    { "National ID": "67890", "username": "user2", "Usercode": "code2", "password": "pass2" }
+];
 
 function retrieveInfo() {
     const id = document.getElementById('nationalID').value;
