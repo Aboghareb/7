@@ -24,7 +24,7 @@ function retrieveInfo() {
     } else {
         // Show message if no user is found
         const row = document.createElement('tr');
-        row.innerHTML = '<td colspan="3">No user found with this National ID.</td>';
+        row.innerHTML = '<td colspan="3">رقم البطاقة غير صحيح</td>';
         resultBody.appendChild(row);
     }
 }
