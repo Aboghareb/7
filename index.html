@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Site Logo" id="logo">
+        <h1>الحصول على اكواد الطلبة الجدد على منصة زاد التعليمية
+</h1>
+    </header>
+    <input type="text" id="nationalID" placeholder="ادخل رقم البطاقة">
+    <button onclick="retrieveInfo()">Search</button>
+    <table id="resultTable">
+        <thead>
+            <tr>
+                <th>اسم الطالب</th>
+                <th>كود منصة زاد</th>
+                <th>كلمة المرور</th>
+            </tr>
+        </thead>
+        <tbody id="resultBody">
+            <!-- Results will be injected here -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
