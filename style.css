@@ -9,7 +9,7 @@ header {
     margin-bottom: 20px;
 }
 
-logo {
+#logo {
     max-width: 150px; /* Adjust logo size */
     height: auto;
 }
@@ -40,4 +40,12 @@ th, td {
 
 th {
     background-color: #f2f2f2;
+}
+
+/* Styling for the paragraph */
+#footer-paragraph {
+    margin-top: 20px; /* Space above the paragraph */
+    font-size: 20px; /* Adjust font size */
+    color: #333; /* Darker text color */
+    text-align: center; /* Center align text */
 }
